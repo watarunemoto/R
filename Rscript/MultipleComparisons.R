@@ -39,7 +39,8 @@ pairwise.t.test(data$yield, data$treatment, p.adj = "BH")
 
 # Bonferroni > Tukey-Kramer > BH の順となる。
 # Tukey-Kramer法やBH法の検出力が高くなる。
-# 例えばBonferroniでは有意差がなかった「N0 vs N10」「N10 vs N15」「N20 vs N25」の比較について、BH法では有意な結果になっています。一般に、Bonferroni法は有意になりにくいのであまり使われない。
+# 例えばBonferroniでは有意差がなかった比較について、BH法では有意な結果になることがある。
+# 一般に、Bonferroni法は有意になりにくいのであまり使われない。
 
 
 
